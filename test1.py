@@ -54,7 +54,6 @@ class MorseCodeApp:
         text = ''.join(REVERSE_MORSE_DICT.get(code, '?') for code in morse)
         self.text_output.delete("1.0", "end")
         self.text_output.insert("1.0", text)
-
 if __name__ == "__main__":
     root = tk.Tk()
     app = MorseCodeApp(root)
