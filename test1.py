@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 #test   s
-sdawda
+
 MORSE_CODE_DICT = {
     'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
     'G': '--.', 'H': '....', 'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..',
